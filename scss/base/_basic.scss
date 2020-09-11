@@ -1,0 +1,41 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	color: black;
+	background-color: white;
+	font-family: Lato, sans-serif;
+	letter-spacing: 0.03em;
+}
+h1, h2, h3, ul, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a[href] {
+	text-decoration: none;
+}
+a[href]:hover,
+a[href]:focus {
+	outline: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}

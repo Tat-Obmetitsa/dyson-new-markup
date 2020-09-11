@@ -1,0 +1,9 @@
+@mixin fonts ($size, $weight) {
+    font-size: $size;
+    font-weight: $weight;
+}
+@mixin centeredFlex($type) {
+	display: $type;
+	align-items: center;
+	justify-content: center;
+}
